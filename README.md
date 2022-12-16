@@ -8,8 +8,9 @@ It comes with a logger, custom context and some helpers.
 To use this boilerplate simply:
 1. Clone the repo
 2. Delete the `.git` folder to get a fresh start
-3. Rename `my-app` with the name of your app
-4. Make any required changes to the configs, Makefile and Docker files
+3. Delete `go.mod` and `go.sum` followed by `go mod init {your-new-app-name}`
+4. Rename `my-app` with the name of your app
+5. Make any required changes to the configs, Makefile and Docker files
 
 ## Contribute
 
